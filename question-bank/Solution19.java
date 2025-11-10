@@ -15,7 +15,7 @@ class ListNode {
     }
 }
 
-public class Solution {
+public class Solution19 {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode f = head;
         ListNode s = head;
@@ -46,7 +46,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Solution19 solution = new Solution19();
         ListNode node6 = new ListNode(6, null);
         ListNode node5 = new ListNode(5, node6);
         ListNode node4 = new ListNode(4, node5);
