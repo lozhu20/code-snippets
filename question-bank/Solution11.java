@@ -9,7 +9,7 @@ public class Solution11 {
                 maxArea = area;
             }
 
-            if (area(arr, p1 + 1, p2) >= area(arr, p1, p2 - 1)) {
+            if (arr[p1] < arr[p2]) {
                 p1 = p1 + 1;
             } else {
                 p2 = p2 - 1;
@@ -33,6 +33,6 @@ public class Solution11 {
         int arr1[] = {1, 2, 4, 3};
         int arr2[] = {1, 8, 6, 2, 5, 4, 8, 3, 7};
         int arr3[] = {1, 1};
-        System.out.println(maxArea(arr1));
+        System.out.println(maxArea(arr2));
     }
 }
