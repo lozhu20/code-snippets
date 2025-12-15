@@ -1,5 +1,3 @@
-package day.happy365.javademo.questionbank;
-
 import java.util.Arrays;
 
 public class Solution16 {
