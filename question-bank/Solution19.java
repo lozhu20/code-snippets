@@ -1,20 +1,3 @@
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode() {
-    }
-
-    ListNode(int val) {
-        this.val = val;
-    }
-
-    ListNode(int val, ListNode next) {
-        this.val = val;
-        this.next = next;
-    }
-}
-
 public class Solution19 {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode f = head;
@@ -58,6 +41,23 @@ public class Solution19 {
         while (h != null) {
             System.out.println("h: " + h.val);
             h = h.next;
+        }
+    }
+
+    private static class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode() {
+        }
+
+        ListNode(int val) {
+            this.val = val;
+        }
+
+        ListNode(int val, ListNode next) {
+            this.val = val;
+            this.next = next;
         }
     }
 }
