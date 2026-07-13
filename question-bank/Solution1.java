@@ -1,5 +1,9 @@
 import java.util.*;
 
+/**
+ * @author      zhulongkun20@icloud.com
+ * @description 找出完全二叉树中最小的叶子节点到根节点的路径。
+ */
 public class Solution1 {
     public static void main(String[] args) {
         int[] nodes = new int[]{0, 3, 5, 7, -1, -1, 2, 4};
